@@ -1,0 +1,1 @@
+Estou iniciando na aprendizagem da linguagem Python e serão anexados alguns exercício realizados.
