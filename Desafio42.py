@@ -1,8 +1,4 @@
-# Crie um programa que faça o computador jogar Jokenpô com você.
-# Pedra quebra tesoura e vence. Porém perde para papel.
-# Papel embrula a pedra e vence. Porém perde para tesoura.
-# Tesoura corta o papel e vence. Porém perde para pedra.
-
+# Jogo Jokenpo
 from time import sleep
 from random import randint
 
@@ -19,11 +15,11 @@ if jogador > 2:
     print('\nJogada inválida, pois foi digitado uma opção não permitido! Opção digitada: {}. \n\nTente novamente!'.format(
         jogador))
 else:
-    sleep(2)
+    sleep(1)
     print('\nJO')
-    sleep(2)
+    sleep(1)
     print('KEN')
-    sleep(2)
+    sleep(1)
     print('PO!!\n')
     print('-=-'*10)
     print('Computador jogou {} \nJogador jogou {}'.format(itens[computador], itens[jogador]))
